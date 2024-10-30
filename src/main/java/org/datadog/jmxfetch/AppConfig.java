@@ -20,7 +20,7 @@ import java.util.HashSet;
 import java.util.List;
 import java.util.Map;
 
-@Builder
+@Builder(toBuilder = true)
 @ToString
 @Parameters(separators = "=")
 public class AppConfig {
